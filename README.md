@@ -1,6 +1,6 @@
-Poll service for yii2
+Partner service for yii2
 =====================
-Poll server for yii2
+Partner server for yii2
 
 Installation
 ------------

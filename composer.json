@@ -1,6 +1,6 @@
 {
-    "name": "it-yakutia/yii2-poll",
-    "description": "Partners for yii2",
+    "name": "it-yakutia/yii2-partner",
+    "description": "Partner for yii2",
     "type": "yii2-extension",
     "keywords": ["yii2", "extension", "partner"],
     "license": "MIT",
