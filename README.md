@@ -36,7 +36,6 @@ Add migration path in your console config file:
 ]
 
 ```
-
 Usage
 -----
 
