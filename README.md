@@ -15,7 +15,7 @@ php composer.phar require --prefer-dist it-yakutia/yii2-partner "*"
 
 or add
 
-```
+```json
 "it-yakutia/yii2-partner": "*"
 ```
 
