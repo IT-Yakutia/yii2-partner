@@ -24,10 +24,17 @@ to the require section of your `composer.json` file.
 Add migration path in your console config file:
 
 ```php
-'migrationPath' => [
+'controllerMap' => [
     ...
-    '@vendor/it-yakutia/partner/src/migrations',
-],
+    'migrate' => [
+    ...
+        'migrationPath' => [
+            ...
+            '@vendor/it-yakutia/partner/src/migrations',
+        ],
+    ],
+]
+
 ```
 
 Usage
@@ -37,4 +44,9 @@ Once the extension is installed, simply use it in your code by  :
 
 ```php
 <?= Url::toRoute(['/partner/back/index']); ?>
+```
+Add RBAC roles:
+
+```
+partner
 ```
