@@ -8,7 +8,7 @@ use yii\grid\SerialColumn;
 use yii\widgets\LinkPager;
 use yii\helpers\Url;
 
-$this->title = 'Баннеры';
+$this->title = 'Организации';
 ?>
 <div class="partner-index">
     <div class="row">

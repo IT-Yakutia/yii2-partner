@@ -1,6 +1,6 @@
 <?php
 
-$this->title = 'Новый партнёр';
+$this->title = 'Новая организация';
 ?>
 <div class="partner-create">
     <div class="row">

@@ -49,3 +49,13 @@ Add RBAC roles:
 ```
 partner
 ```
+
+Add fixtures:
+```sh
+php yii fixture Partner --namespace='ityakutia\partner\tests\fixtures'
+```
+
+Add fixtures in docker:
+```sh
+php yii fixture Partner --namespace='ityakutia\partner\tests\fixtures' --interactive=0
+```
