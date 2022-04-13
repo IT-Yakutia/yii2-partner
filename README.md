@@ -47,7 +47,7 @@ Once the extension is installed, simply use it in your code by  :
 
 Use in frontend:
 ```php
-<?= \frontend\themes\basic\widgets\partner\PartnerWidget::widget(); ?>
+<?= \ityakutia\partner\widgets\partner\PartnerWidget::widget(); ?>
 ```
 
 Add RBAC roles:
