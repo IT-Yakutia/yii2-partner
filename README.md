@@ -44,6 +44,12 @@ Once the extension is installed, simply use it in your code by  :
 ```php
 <?= Url::toRoute(['/partner/back/index']); ?>
 ```
+
+Use in frontend:
+```php
+<?= \frontend\themes\basic\widgets\partner\PartnerWidget::widget(); ?>
+```
+
 Add RBAC roles:
 
 ```
