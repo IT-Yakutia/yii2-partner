@@ -6,6 +6,13 @@ $assetBundle = PartnerAsset::register($this);
 
 ?>
 
+<style>
+    .owl-carousel .owl-stage {
+        display: flex;
+        align-items: center;
+    }
+</style>
+
 <section>
     <div class="container">
         <h3>Полезные ссылки</h3>
@@ -30,20 +37,20 @@ $script = <<< JS
     $(".owl-carousel").owlCarousel({
         loop: true,
         rewind: true,
-        margin: 10,
+        margin: 50,
         responsiveClass: true,
         center: true,
         responsive:{
             0:{
-                items:2,
+                items:3,
                 nav:false
             },
             600:{
-                items:4,
+                items:6,
                 nav:false
             },
             1000:{
-                items:6,
+                items:8,
                 nav:false,
                 loop:true,
             }
