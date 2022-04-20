@@ -9,7 +9,13 @@ $assetBundle = PartnerAsset::register($this);
 <style>
     .owl-carousel .owl-stage {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
+    }
+    .owl-carousel .owl-stage .owl-item a p {
+        font-size: 10px;
+    }
+    .owl-carousel .owl-stage .owl-item a img {
+        padding: 5px 40px;
     }
 </style>
 
@@ -37,7 +43,7 @@ $script = <<< JS
     $(".owl-carousel").owlCarousel({
         loop: true,
         rewind: true,
-        margin: 50,
+        margin: 10,
         responsiveClass: true,
         center: true,
         responsive:{
@@ -45,12 +51,36 @@ $script = <<< JS
                 items:3,
                 nav:false
             },
+            500:{
+                items:4,
+                nav:false
+            },
             600:{
                 items:6,
                 nav:false
             },
             1000:{
+                items:7,
+                nav:false,
+                loop:true,
+            },
+            1200:{
                 items:8,
+                nav:false,
+                loop:true,
+            },
+            1400:{
+                items:9,
+                nav:false,
+                loop:true,
+            },
+            1600:{
+                items:10,
+                nav:false,
+                loop:true,
+            },
+            1800:{
+                items:11,
                 nav:false,
                 loop:true,
             }
