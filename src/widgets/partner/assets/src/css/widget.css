@@ -1,0 +1,10 @@
+.owl-carousel .owl-stage {
+    display: flex;
+    align-items: flex-start;
+}
+.owl-carousel .owl-stage .owl-item a p {
+    font-size: 10px;
+}
+.owl-carousel .owl-stage .owl-item a img {
+    padding: 5px 40px;
+}
